@@ -2,6 +2,11 @@
 
 using namespace std;
 
+/*
+    Time complexity: O(m*n)
+    Space complexity: O(m+n)
+*/
+
 class Solution {
 public:
     vector<vector<int>> onesMinusZeros(vector<vector<int>>& grid) {
