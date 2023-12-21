@@ -27,7 +27,7 @@ public:
         vector<int> rows;
         vector<int> cols;
 
-        for(int i = 0; i < m; i++) {
+        for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 if(!grid[i][j])continue;
                 rows.push_back(i);
