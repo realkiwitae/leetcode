@@ -4,6 +4,15 @@
 
 using namespace std;
 
+/*
+    leetcode 1066. Campus Bikes II
+    https://leetcode.com/problems/campus-bikes-ii/
+
+    Time: O(n * 2^m)
+    Space: O(n * 2^m)
+
+*/
+
 class Solution {
 public:
     int assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes) {
